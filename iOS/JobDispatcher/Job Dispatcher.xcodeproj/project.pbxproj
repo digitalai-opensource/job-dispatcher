@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A8FF3D2886FFC4004F5CBC /* LoginFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A8FF3C2886FFC4004F5CBC /* LoginFunc.m */; };
+		67A8FF3E2886FFC4004F5CBC /* LoginFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A8FF3C2886FFC4004F5CBC /* LoginFunc.m */; };
+		67B14DEB2875DADB00BC9AD2 /* JobsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14DEA2875DADB00BC9AD2 /* JobsAPI.swift */; };
+		67B14DEC2875DADB00BC9AD2 /* JobsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14DEA2875DADB00BC9AD2 /* JobsAPI.swift */; };
+		67B14DEE2875E54700BC9AD2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14DED2875E54700BC9AD2 /* InfoView.swift */; };
+		67B14DEF2875E54700BC9AD2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14DED2875E54700BC9AD2 /* InfoView.swift */; };
+		67B5C51C28789AFF00DE38C2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5C51B28789AFF00DE38C2 /* MapView.swift */; };
+		67B5C51D28789AFF00DE38C2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5C51B28789AFF00DE38C2 /* MapView.swift */; };
+		67BBD37B28FCDB7E002BA617 /* MapObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BBD37A28FCDB7E002BA617 /* MapObjects.swift */; };
+		67C72868286F51D900C953BB /* JoblistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C72867286F51D900C953BB /* JoblistView.swift */; };
+		67C72869286F51D900C953BB /* JoblistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C72867286F51D900C953BB /* JoblistView.swift */; };
+		67C7286B286F545100C953BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7286A286F545100C953BB /* ContentView.swift */; };
+		67C7286C286F545100C953BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7286A286F545100C953BB /* ContentView.swift */; };
+		67ED83322866020900AFED7E /* JobDispatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED830A2866020500AFED7E /* JobDispatcherApp.swift */; };
+		67ED83332866020900AFED7E /* JobDispatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED830A2866020500AFED7E /* JobDispatcherApp.swift */; };
+		67ED83362866020900AFED7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67ED830C2866020800AFED7E /* Assets.xcassets */; };
+		67ED83372866020900AFED7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67ED830C2866020800AFED7E /* Assets.xcassets */; };
+		67ED83592866146E00AFED7E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED83582866146E00AFED7E /* LoginView.swift */; };
+		67ED835A2866146E00AFED7E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED83582866146E00AFED7E /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67A8FF392886FC52004F5CBC /* LoginFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginFunc.h; sourceTree = "<group>"; };
+		67A8FF3A2886FFC4004F5CBC /* JobDispatcher (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobDispatcher (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		67A8FF3B2886FFC4004F5CBC /* JobDispatcher (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobDispatcher (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		67A8FF3C2886FFC4004F5CBC /* LoginFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginFunc.m; sourceTree = "<group>"; };
+		67B14DEA2875DADB00BC9AD2 /* JobsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsAPI.swift; sourceTree = "<group>"; };
+		67B14DED2875E54700BC9AD2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		67B5C51B28789AFF00DE38C2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		67BBD37A28FCDB7E002BA617 /* MapObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapObjects.swift; sourceTree = "<group>"; };
+		67C72867286F51D900C953BB /* JoblistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblistView.swift; sourceTree = "<group>"; };
+		67C7286A286F545100C953BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67ED830A2866020500AFED7E /* JobDispatcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDispatcherApp.swift; sourceTree = "<group>"; };
+		67ED830C2866020800AFED7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67ED83112866020800AFED7E /* Job Dispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Dispatcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ED83172866020800AFED7E /* Job Dispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Dispatcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ED83192866020800AFED7E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		67ED831E2866020800AFED7E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ED832A2866020900AFED7E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ED83582866146E00AFED7E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67ED830E2866020800AFED7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67ED83142866020800AFED7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A8FF3F28874E0D004F5CBC /* Objective C */ = {
+			isa = PBXGroup;
+			children = (
+				67A8FF3C2886FFC4004F5CBC /* LoginFunc.m */,
+				67A8FF392886FC52004F5CBC /* LoginFunc.h */,
+			);
+			path = "Objective C";
+			sourceTree = "<group>";
+		};
+		67B14DF028760D0400BC9AD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67C7286A286F545100C953BB /* ContentView.swift */,
+				67B14DED2875E54700BC9AD2 /* InfoView.swift */,
+				67C72867286F51D900C953BB /* JoblistView.swift */,
+				67ED83582866146E00AFED7E /* LoginView.swift */,
+				67B5C51B28789AFF00DE38C2 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67ED83042866020500AFED7E = {
+			isa = PBXGroup;
+			children = (
+				67ED83092866020500AFED7E /* Shared */,
+				67ED83182866020800AFED7E /* macOS */,
+				67ED83122866020800AFED7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67ED83092866020500AFED7E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				67A8FF3F28874E0D004F5CBC /* Objective C */,
+				67B14DF028760D0400BC9AD2 /* Views */,
+				67ED830A2866020500AFED7E /* JobDispatcherApp.swift */,
+				67ED830C2866020800AFED7E /* Assets.xcassets */,
+				67B14DEA2875DADB00BC9AD2 /* JobsAPI.swift */,
+				67A8FF3A2886FFC4004F5CBC /* JobDispatcher (iOS)-Bridging-Header.h */,
+				67A8FF3B2886FFC4004F5CBC /* JobDispatcher (macOS)-Bridging-Header.h */,
+				67BBD37A28FCDB7E002BA617 /* MapObjects.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		67ED83122866020800AFED7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67ED83112866020800AFED7E /* Job Dispatcher.app */,
+				67ED83172866020800AFED7E /* Job Dispatcher.app */,
+				67ED831E2866020800AFED7E /* Tests iOS.xctest */,
+				67ED832A2866020900AFED7E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67ED83182866020800AFED7E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				67ED83192866020800AFED7E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67ED83102866020800AFED7E /* Job Dispatcher (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67ED833A2866020900AFED7E /* Build configuration list for PBXNativeTarget "Job Dispatcher (iOS)" */;
+			buildPhases = (
+				67ED830D2866020800AFED7E /* Sources */,
+				67ED830E2866020800AFED7E /* Frameworks */,
+				67ED830F2866020800AFED7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Job Dispatcher (iOS)";
+			productName = "Job Dispatcher (iOS)";
+			productReference = 67ED83112866020800AFED7E /* Job Dispatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67ED83162866020800AFED7E /* Job Dispatcher (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67ED833D2866020900AFED7E /* Build configuration list for PBXNativeTarget "Job Dispatcher (macOS)" */;
+			buildPhases = (
+				67ED83132866020800AFED7E /* Sources */,
+				67ED83142866020800AFED7E /* Frameworks */,
+				67ED83152866020800AFED7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Job Dispatcher (macOS)";
+			productName = "Job Dispatcher (macOS)";
+			productReference = 67ED83172866020800AFED7E /* Job Dispatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67ED83052866020500AFED7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					67ED83102866020800AFED7E = {
+						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
+					};
+					67ED83162866020800AFED7E = {
+						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 67ED83082866020500AFED7E /* Build configuration list for PBXProject "Job Dispatcher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67ED83042866020500AFED7E;
+			productRefGroup = 67ED83122866020800AFED7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67ED83102866020800AFED7E /* Job Dispatcher (iOS) */,
+				67ED83162866020800AFED7E /* Job Dispatcher (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67ED830F2866020800AFED7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ED83362866020900AFED7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67ED83152866020800AFED7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ED83372866020900AFED7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67ED830D2866020800AFED7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B5C51C28789AFF00DE38C2 /* MapView.swift in Sources */,
+				67ED83592866146E00AFED7E /* LoginView.swift in Sources */,
+				67C72868286F51D900C953BB /* JoblistView.swift in Sources */,
+				67C7286B286F545100C953BB /* ContentView.swift in Sources */,
+				67B14DEB2875DADB00BC9AD2 /* JobsAPI.swift in Sources */,
+				67A8FF3D2886FFC4004F5CBC /* LoginFunc.m in Sources */,
+				67B14DEE2875E54700BC9AD2 /* InfoView.swift in Sources */,
+				67BBD37B28FCDB7E002BA617 /* MapObjects.swift in Sources */,
+				67ED83322866020900AFED7E /* JobDispatcherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67ED83132866020800AFED7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B5C51D28789AFF00DE38C2 /* MapView.swift in Sources */,
+				67ED835A2866146E00AFED7E /* LoginView.swift in Sources */,
+				67C72869286F51D900C953BB /* JoblistView.swift in Sources */,
+				67C7286C286F545100C953BB /* ContentView.swift in Sources */,
+				67B14DEC2875DADB00BC9AD2 /* JobsAPI.swift in Sources */,
+				67A8FF3E2886FFC4004F5CBC /* LoginFunc.m in Sources */,
+				67B14DEF2875E54700BC9AD2 /* InfoView.swift in Sources */,
+				67ED83332866020900AFED7E /* JobDispatcherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67ED83382866020900AFED7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JobDispatcher;
+				PRODUCT_NAME = "Job Dispatcher";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67ED83392866020900AFED7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JobDispatcher;
+				PRODUCT_NAME = "Job Dispatcher";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		67ED833B2866020900AFED7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Job Dispatcher would like to access your location to provide directions to the job's location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-Wl,-no_fixup_chains";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JobDispatcher;
+				PRODUCT_NAME = "Job Dispatcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/JobDispatcher (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67ED833C2866020900AFED7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Job Dispatcher would like to access your location to provide directions to the job's location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-Wl,-no_fixup_chains";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JobDispatcher;
+				PRODUCT_NAME = "Job Dispatcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/JobDispatcher (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67ED833E2866020900AFED7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JobDispatcher;
+				PRODUCT_NAME = "Job Dispatcher";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/JobDispatcher (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67ED833F2866020900AFED7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JobDispatcher;
+				PRODUCT_NAME = "Job Dispatcher";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/JobDispatcher (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67ED83082866020500AFED7E /* Build configuration list for PBXProject "Job Dispatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ED83382866020900AFED7E /* Debug */,
+				67ED83392866020900AFED7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67ED833A2866020900AFED7E /* Build configuration list for PBXNativeTarget "Job Dispatcher (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ED833B2866020900AFED7E /* Debug */,
+				67ED833C2866020900AFED7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67ED833D2866020900AFED7E /* Build configuration list for PBXNativeTarget "Job Dispatcher (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ED833E2866020900AFED7E /* Debug */,
+				67ED833F2866020900AFED7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67ED83052866020500AFED7E /* Project object */;
+}

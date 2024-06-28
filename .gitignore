@@ -1,0 +1,6 @@
+.DS_Store
+/build
+App/build
+DerivedData
+xcuserdata
+iOS/JobDispatcher/Job Dispatcher.xcodeproj/project.xcworkspace
